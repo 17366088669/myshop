@@ -8,7 +8,7 @@
     npm run dev
 
 ## 2.配置
-### 1）运行自动打开浏览器
+### 运行自动打开浏览器
     config->index.js：
         autoOpenBrowser:true
 ## 3.src创建文件夹
