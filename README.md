@@ -51,13 +51,13 @@
     better-scroll // 滑动库
     swiper //轮播
     moment/date-fns //日期处理 fns轻量级
-### vue-router：在入口注册路由器
+### （vue-router）在入口注册路由器
     import router from './router' 
     new Vue({
         router
     })
-#### 1）.文件夹router -> index.js
-#### 2）.文件夹router -> index.js
+#### 1）文件夹router -> index.js
+#### 2）文件夹router -> index.js
     import Vue from 'vue'
     import VueRouter from 'vue-router'
     import Xxx from './Xxx.vue'
@@ -95,10 +95,10 @@
             }
         ]
     })
-#### 3）.使用路由组件标签
-##### a.<router-link>: 用来生成路由链接
+#### 3）使用路由组件标签
+##### a.// <router-link>: 用来生成路由链接
      <router-link to="/xxx">Go to XXX</router-link>
-##### b.<router-view>: 用来显示当前路由组件界面
+##### b.// <router-view>: 用来显示当前路由组件界面
      <router-view></router-view>
 #### 4）路由路径携带参数(param/query)
 ##### a.配置路由
