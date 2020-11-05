@@ -96,9 +96,9 @@
         ]
     })
 #### 3）使用路由组件标签
-##### a.（<router-link>: 用来生成路由链接）
+##### a.生成路由链接
      <router-link to="/xxx">Go to XXX</router-link>
-##### b.（<router-view>: 用来显示当前路由组件界面）
+##### b.显示当前路由组件界面
      <router-view></router-view>
 #### 4）路由路径携带参数(param/query)
 ##### a.配置路由
