@@ -56,8 +56,8 @@
     new Vue({
         router
     })
-#### a.文件夹router -> index.js
-#### b.文件夹router -> index.js
+#### 1）.文件夹router -> index.js
+#### 2）.文件夹router -> index.js
     import Vue from 'vue'
     import VueRouter from 'vue-router'
     import Xxx from './Xxx.vue'
@@ -95,24 +95,24 @@
             }
         ]
     })
-#### c.使用路由组件标签
-##### <router-link>: 用来生成路由链接
+#### 3）.使用路由组件标签
+##### a.<router-link>: 用来生成路由链接
      <router-link to="/xxx">Go to XXX</router-link>
-##### <router-view>: 用来显示当前路由组件界面
+##### b.<router-view>: 用来显示当前路由组件界面
      <router-view></router-view>
-#### d.路由路径携带参数(param/query)
-##### 配置路由
+#### 4）路由路径携带参数(param/query)
+##### a.配置路由
     children: [
         {
             path: 'mdetail/:id',
             component: MessageDetail
         }
     ]
-##### 路由路径
+##### b.路由路径
     <router-link :to="'/home/message/mdetail/'+m.id">{{m.title}}</router-link>
-##### 路由组件中读取请求参数
+##### c.路由组件中读取请求参数
     this.$route.params.id
-#### f.缓存路由组件对
+#### 5）缓存路由组件对
     <keep-alive>
         <router-view></router-view>
     </keep-alive>
